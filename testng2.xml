@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+<listeners>
+<listener class-name="testng.Listener"/>
+</listeners>
+	<test name="Smoke">
+	<parameter name="URL" value="www.google.com"></parameter>
+	<groups>
+	   <run>
+	      <include name="smoke"/>
+	   </run>
+	</groups>
+		<classes>
+			<class name="testng.TestbBasics" />
+			<class name="testng.Day2" />
+			
+		</classes>
+	</test>
+	<test name="parameter">
+	<parameter name="URL" value="www.carlone.com"></parameter>
+	<parameter name="Api/username" value="1234"></parameter>
+	       <classes>
+	        <class name="testng.Day3"/>
+	        <class name="testng.Day4"/>
+	       </classes>
+	</test>
+
+</suite> 

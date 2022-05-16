@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Personal Loan(failed)">
+    <classes>
+      <class name="testng.Day2">
+        <methods>
+          <include name="day2"/>
+          <include name="beforeClass"/>
+          <include name="require"/>
+        </methods>
+      </class> <!-- testng.Day2 -->
+      <class name="testng.Day4">
+        <methods>
+          <include name="loginApiHome"/>
+        </methods>
+      </class> <!-- testng.Day4 -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+  <test thread-count="5" name="Car Loan(failed)">
+    <classes>
+      <class name="testng.Day3">
+        <methods>
+          <include name="webLogin"/>
+        </methods>
+      </class> <!-- testng.Day3 -->
+    </classes>
+  </test> <!-- Car Loan(failed) -->
+</suite> <!-- Failed suite [Suite] -->
