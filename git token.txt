@@ -5,6 +5,7 @@ git config --global user.email sam@example.com
 
 git remote set-url origin https://manoharrepo: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@github.com/manoharrepo/GitDemo.git
 
+git remote set-url origin https://manoharrepo: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@github.com/manoharrepo/privatenote.git
 git init.
 
 git add *
