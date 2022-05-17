@@ -8,6 +8,7 @@ public class Day2 {
 	public void day2(String urllink) {
 	   System.out.println("Hello2");
 	   System.out.println(urllink);
+           System.out.println(link);
    }
     @BeforeTest
     public void require() {
