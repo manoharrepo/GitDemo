@@ -1,4 +1,3 @@
-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
 
 git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
