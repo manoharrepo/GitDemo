@@ -13,6 +13,7 @@ public class TestbBasics {
 	@Test
 	public void test2() {
 		System.out.println("Hello1");
+                System.out.println("Hello1");
 	}
 	@BeforeClass
 	public void beforeClass() {
